@@ -131,18 +131,18 @@ curl -X GET http://localhost:8082/api/v1/orders \
 ---
 
 🧪 Testing
-SOAP UI for Catalog Service testing
 
-Postman for REST services
+1. SOAP UI for Catalog Service testing
+2. Postman for REST services
+3. JUnit for automated unit testing
 
-JUnit for automated unit testing
-
-# Run all tests
-mvn test
+    # Run all tests
+    mvn test
 
 ---
 
 🩺 Monitoring & Health Checks
+
 | Service  | Endpoint           |
 | -------- | ------------------ |
 | Catalog  | `/health`          |
@@ -155,47 +155,35 @@ Includes Spring Boot Actuator, database connectivity checks, and structured logg
 ---
 
 ☁️ Deployment Options
-Local: Docker Compose
 
-Cloud: AWS / Azure / GCP
-
-Scalability: Kubernetes orchestration, service replication
-
-Storage: Managed PostgreSQL (RDS / Cloud SQL)
+1. Local: Docker Compose
+2. Cloud: AWS / Azure / GCP
+3. Scalability: Kubernetes orchestration, service replication
+4. Storage: Managed PostgreSQL (RDS / Cloud SQL)
 
 ---
 
 🤝 Contributing
 
-Fork the repository
-
-Create a new branch
-
-Commit your changes
-
-Push and submit a Pull Request
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push and submit a Pull Request
 
 Please ensure:
-
-Code follows Java best practices
-
-Unit tests are added
-
-Documentation is updated
-
-Docker compatibility is preserved
+    * Code follows Java best practices
+    * Unit tests are added
+    * Documentation is updated
+    * Docker compatibility is preserved
 
 ---
 
 🙏 Acknowledgments
 
-Spring Boot Community
-
-Apache Software Foundation
-
-OASIS WS Standards
-
-Docker Community
+* Spring Boot Community
+* Apache Software Foundation
+* OASIS WS Standards
+* Docker Community
 
 ---
 
