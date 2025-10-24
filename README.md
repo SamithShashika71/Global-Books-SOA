@@ -58,19 +58,6 @@ The system is decomposed into **four autonomous services**:
 
 ---
 
-## 📂 Project Structure
-
-Global-Books/
-├── catalog-service/ # SOAP-based service
-├── orders-service/ # REST-based service
-├── payment-service/ # REST-based service
-├── shipping-service/ # REST-based service
-├── docker-compose.yml # Multi-service orchestration
-├── init-databases.sql # Database initialization
-└── README.md
-
----
-
 ## 🚀 Quick Start with Docker
 
 ```bash
